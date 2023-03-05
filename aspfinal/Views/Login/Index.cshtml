@@ -1,0 +1,18 @@
+﻿@using aspfinal.Models.Forms;
+@model LoginForm
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutCenterScreen.cshtml";
+}
+
+<section class="registerform">
+    <div class="title">
+        <div class="headline">
+            <span>Please Login to Your Account</span>
+            <div class="underline"></div>
+        </div>
+
+    </div>
+    <partial name="~/Views/Shared/Partials/Forms/_LogInFormPartial.cshtml" model="@Model" />
+</section>

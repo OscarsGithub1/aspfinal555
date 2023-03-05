@@ -1,0 +1,99 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using aspfinal.Models.Entities;
+@using aspfinal.Services;
+@using aspfinal.Context;
+@using aspfinal.ViewModels;
+@model IndexViewModel;
+
+
+
+<h1 class="Collectionh1">Best Collection</h1>
+
+<h4 class="Collectioh4">All / Bags / Dress / Decoration / Essentials / Interior / Laptop / Mobile / Beauty</h4>
+
+<div class="container">
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 1">
+
+        <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 2">
+
+ <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 3">
+
+        <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+</div>
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 4">
+
+        <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="image">
+
+<img src="~/Images/showcase-img-1.png" alt="Adidas Image 5">
+
+        <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 6">
+
+         <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 7">
+
+        <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+<div class="image">
+
+        <img src="~/Images/showcase-img-1.png" alt="Adidas Image 8">
+
+        <div class="text"><br /><p class="prodp2">@Model.ProductModel.Name</p> </div>
+        <h1>@Model.ProductModel.Price</h1>
+
+</div>
+
+</div>
+
+<div class="loadbtn">
+
+<button class="load">Load more</button>
+
+ 
+
+</div>

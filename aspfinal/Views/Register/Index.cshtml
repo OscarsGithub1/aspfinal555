@@ -1,0 +1,57 @@
+﻿@model aspfinal.Models.Forms.RegisterForm
+
+@{
+    
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutCenterScreen.cshtml";
+}
+
+
+
+<section class="registration-form">
+<h1>Register</h1>
+<div class="CreatingUser">
+    
+        <form method="post" asp-action="Index" asp-route-ReturnUrl="@Model.ReturnUrl" novalidate>
+            <div class="registration-form-firstname">
+                <input asp-for="FirstName" placeholder="@Html.DisplayNameFor(m => m.FirstName)" />
+                <span asp-validation-for="FirstName" class="error"></span>
+            </div>
+               <div class="registration-form-lastname">
+                <input asp-for="LastName" placeholder="@Html.DisplayNameFor(m => m.LastName)" />
+                <span asp-validation-for="LastName" class="error"></span>
+                </div>
+
+
+           
+            <div class="registration-form-email">
+                <input asp-for="Email" placeholder="@Html.DisplayNameFor(m => m.Email)" />
+                <span asp-validation-for="Email" class="error"></span>
+            </div>
+            <div class="registration-form-password">
+                <input asp-for="Password" placeholder="@Html.DisplayNameFor(m => m.Password)" />
+                <span asp-validation-for="Password" class="error"></span>
+            </div>
+            <div class="registration-form-confirmpassword">
+                <input asp-for="ConfirmPassword" placeholder="@Html.DisplayNameFor(m => m.ConfirmPassword)" />
+                <span asp-validation-for="ConfirmPassword" class="error"></span>
+            </div>
+
+            <div class="registration-form-streetname mt-5">
+                <input asp-for="StreetName" placeholder="@Html.DisplayNameFor(m => m.StreetName)" />
+                <span asp-validation-for="StreetName" class="error"></span>
+            </div>
+            <div class="registration-form-postalcode">
+                <input asp-for="PostalCode" placeholder="@Html.DisplayNameFor(m => m.PostalCode)" />
+                <span asp-validation-for="PostalCode" class="error"></span>
+            </div>
+            <div class="registration-form-city">
+                <input asp-for="City" placeholder="@Html.DisplayNameFor(m => m.City)" />
+                <span asp-validation-for="City" class="error"></span>
+            </div>
+
+            <button class="btn-theme mt-3" type="submit">Submit</button>
+
+        </form>
+</div>
+</section>

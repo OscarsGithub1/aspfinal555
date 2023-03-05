@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using aspfinal.Models.Identity;
+@using aspfinal.Context;
+@using aspfinal.Migrations.Identity;
+@using aspfinal.Models.ViewModelsHansvideo.Accounthansvideo;
+
+@model IndexViewModelHans
+
+<partial name="~/Views/Shared/Partials/_Header.cshtml" />
+<h1>Hej här är all information om dig</h1>
+
+@*De två Divarna här under leder till ett problem ta bort leder till att allt fungerar*@
+<div>@Model.Profile.FirstName @Model.Profile.LastName</div>
+<div>@Model.Profile.Email</div>

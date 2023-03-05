@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> SignInManager
+
+<div class="container">
+<div id="logoImg">
+    <h1 class="logoImg1">Bmerkto</h1>
+</div>
+
+
+<div class="headerLinks">
+<a asp-controller="Home" asp-action="Index" class="headerLinks1">Home</a>
+<a asp-controller="Products" asp-action="Index" class="headerLinks2">Products</a>
+<a asp-controller="Contacts" asp-action="Index" class="headerLinks3">Contacts</a>
+
+        @if(SignInManager.IsSignedIn(User))
+        {
+            <a asp-controller="Signout" asp-action="SignOut" class="headerLinks4">Log out</a>
+        }
+        else
+        {
+            <a asp-controller="Login" asp-action="Index" class="headerLinks4">Login</a>
+        }
+
+
+
+</div>
+
+</div>

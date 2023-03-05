@@ -1,0 +1,638 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+html, body {
+    font-family: "Roboto", sans-serif;
+}
+
+.registerform {
+    width: 1110px;
+    border: 1px solid rgb(234, 234, 234);
+    padding: 50px;
+}
+
+    .registerform .title .headline {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .registerform .title .underline {
+        margin-top: 5px;
+        margin-bottom: 35px;
+        border-top: 1px solid black;
+        width: 30%;
+    }
+
+    .registerform .form-group {
+        margin-bottom: 20px;
+    }
+
+    .registerform a {
+        font-size: 14px;
+        color: #FA3150;
+        text-decoration: none;
+    }
+
+    .registerform input {
+        border-color: #222121;
+        border-radius: 0;
+    }
+
+    /* Header delen  */
+.headerLinks {
+    display: flex;
+    justify-content: flex-end;
+    
+
+    
+}
+
+.headerLinks1
+{
+    margin: 5px;
+    color:black;
+}
+.headerLinks2 {
+    margin: 5px;
+    color: black;
+}
+.headerLinks3 {
+    margin: 5px;
+    color: black;
+}
+
+.headerLinks4 {
+    margin: 5px;
+    color: black;
+}
+.logoImg1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container {
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    
+}
+
+.logoImg1
+{
+    margin-right: 500px;
+}
+
+/*Slut på header delen  */ 
+
+/*ShowCase*/
+.showcase {
+    background: #f3f3f3;
+    background: linear-gradient(90deg, #f3f3f3 0%, #f5f5f5 100%);
+}
+
+    .showcase .container {
+        display: grid;
+        grid-template-areas: "column1";
+        display:flex;
+        justify-content:center;
+    }
+
+    .showcase .column-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+        .showcase .column-1 .content {
+            text-align: center;
+        }
+
+            .showcase .column-1 .content .title-1 {
+                font-size: 2.2em;
+            }
+
+            .showcase .column-1 .content .title-2 {
+                font-size: 1.5em;
+            }
+
+            .showcase .column-1 .content .title-3 {
+                font-size: 1em;
+            }
+
+
+    .showcase .column-2 {
+        display: flex;
+        justify-content:flex-end;
+    }
+
+.btn-theme {
+    background-color: #ff7373;
+    color: #ffffff;
+    padding: 15px 50px;
+}
+
+    .btn-theme:hover {
+        color: red;
+        background-color: red;
+    }
+
+
+.title-1 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.title-2 {
+    font-size: 150px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.title-3 {
+    font-size: 57px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+/*ShowCase*/
+
+
+/*Products*/
+.ProductsShop
+{
+    height: 300px;
+    background-color:gray;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+/**/
+
+.productsvara{
+    max-width: 1920px;
+}
+
+.productcontainer {
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+
+.productcontainer img{
+    height: 500px;
+    width: 500px;
+}
+
+.productcontainer .producttext{
+    font-size: 30px;
+}
+
+.nextsection {
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*ny section*/
+
+.textsec3{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.imgsec3 img {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    align-items:center;
+    align-content:center;
+}
+
+.sex3container{
+    max-width: 1920px;
+}
+
+
+/* best collection delen */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 25%;
+    max-width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+    .image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.Collectionh1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.Collectioh4 {
+    display: flex;
+    justify-content: center;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+
+.loadbtn {
+    display: flex;
+    justify-content: center;
+}
+
+/*Up to sell delen */
+.section1 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightpink;
+}
+
+    .section1 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .section1 img {
+        height: 369px;
+        width: 310px;
+        background-color: white;
+    }
+
+.test {
+    height: 369px;
+    width: 310px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/*Best selling products this week */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 25%;
+    max-width: 19%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+    .image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.Collectionh1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.Collectioh4 {
+    display: flex;
+    justify-content: center;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+
+.loadbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.testthree {
+    height: 369px;
+    width: 310px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.three-pictures {
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer home delen*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-top {
+    height: 75px;
+    background-color: white;
+}
+
+.footer-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-bottom {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*Products delen*/
+
+.container {
+    display: flex;
+    flex-direction: row; /* Set the direction of the flex container to row */
+
+    align-items: flex-start; /* Align the items to the top of the container */
+}
+
+.columnone {
+    width: 70%; /* Set the width of columnone to 70% */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigcube {
+    height: 501px;
+    width: 430px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+.smallcubes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.smallcube1,
+.smallcube2,
+.smallcube3,
+.smallcube4 {
+    height: 120px;
+    width: 113px;
+    background-color: gray;
+    margin: 2px;
+}
+
+.columntwo {
+    width: 30%; /* Set the width of columntwo to 30% */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sentences {
+    margin-top: 20px; /* Add margin-top to create some space between columnone and the sentences */
+}
+
+.sentence {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btnfive {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    margin-top: 80px;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.random-text {
+    flex-grow: 1;
+    margin-right: 10px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.grey-div {
+    width: 356px;
+    height: 469px;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+
+.rubrikforproducts {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+    .image-container img {
+        height: 270px;
+        width: 295px;
+    }
+
+    .image-container p {
+        text-align: center;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+.container55 {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+
+    .container55 img {
+        height: 200px;
+        width: 122px;
+        margin: 10px;
+    }
+
+.footerproducts27 {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add CSS styles here */
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    margin-top: 50px;
+}
+
+    .form-group label {
+        display: inline-block;
+        width: 20%;
+        font-weight: bold;
+        margin-right: 0.1rem;
+        margin-bottom: 0.7rem;
+        padding: 12px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        flex: 1;
+        padding: 0.5rem;
+        font-size: 0.5rem;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+        .form-group input[type="submit"] {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border-radius: 3px;
+            cursor: pointer;
+            padding: 15px;
+            width: 30px;
+        }
+
+            .form-group input[type="submit"]:hover {
+                background-color: red;
+                color: white;
+                width: 30px;
+            }
+
+.graycontacts {
+    width: 100%;
+    background-color: lightslategray;
+    height: 250px;
+}
+
+.contactsfooter1 {
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
